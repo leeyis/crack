@@ -1,0 +1,24 @@
+{
+    "cities": [
+        {
+            "name": "武汉",
+            "url_encoded": "武汉"
+        },
+        {
+            "name": "北京",
+            "url_encoded": "北京"
+        },
+        {
+            "name": "上海",
+            "url_encoded": "上海"
+        },
+        {
+            "name": "广州",
+            "url_encoded": "广州"
+        },
+        {
+            "name": "深圳",
+            "url_encoded": "深圳"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+# Handshake capture files
+*.cap
+*.hc22000
+*.hccapx
+*.hccap
+*.hccapx
+# Text files (often for temporary notes or outputs)
+*.txt
+
+# Log files
+*.log
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Other compiled files
+*.o
+*.exe
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.swo
+
+# IDE / Tool specific directories
+.claude/
+
+# Third-party tools / Dependencies
+hashcat-6.2.6/
+hashcat-utils-1.9/
+hcxtools-6.3.0/

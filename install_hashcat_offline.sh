@@ -96,7 +96,7 @@ check_source_packages() {
     local packages=(
         "hashcat-6.2.6.tar.gz"
         "hashcat-utils-1.9.tar.gz"
-        "6.3.0.tar.gz"
+        "hcxtools-6.3.0.tar.gz"
     )
     
     local missing_packages=()
@@ -366,8 +366,8 @@ install_hcxtools() {
 
     # 解压源码
     if [ ! -d "hcxtools-6.3.0" ]; then
-        log_info "解压6.3.0.tar.gz..."
-        tar -xzf 6.3.0.tar.gz
+        log_info "解压hcxtools-6.3.0.tar.gz..."
+        tar -xzf hcxtools-6.3.0.tar.gz
     fi
 
     cd hcxtools-6.3.0
